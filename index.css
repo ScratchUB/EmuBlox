@@ -5,12 +5,12 @@ body {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
 }
 
 p {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 #italic {
@@ -19,4 +19,16 @@ p {
 
 #bold {
   font-weight: bold;
+}
+
+#banner {
+  min-width: 900px;
+  max-width: 900px;
+  height: auto;
+  margin: auto;
+  border: 3px solid black;
+  background-image: url("");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
