@@ -1,6 +1,23 @@
 /* Stylesheet */
 
+body {
+  font-family: "Comic Sans MS", serif;
+}
+
 h1 {
   font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 11px;
   text-decoration: none;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#bold {
+  font-weight: bold;
 }
